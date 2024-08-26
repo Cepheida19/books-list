@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { useAppDispatch, useAppSelector } from '../../hooks';
-import { fetchBooks, sortBooksByTitle } from '../../store/bookSlice';
+import { useAppDispatch, useAppSelector } from '../hooks';
+import { fetchBooks, sortBooksByTitle } from '../store/bookSlice';
 import styles from './DisplayBooks.module.scss'
 
 export const DisplayBooks = () => {
