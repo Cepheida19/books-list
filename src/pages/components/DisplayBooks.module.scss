@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    font-size: 32px;
+    margin: 14px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.buttons-block {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+button {
+    width: 280px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 5px;
+}
